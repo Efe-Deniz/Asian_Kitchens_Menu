@@ -11,3 +11,10 @@ export interface MenuItem {
     description: string;
     image: string;
 }
+
+//3-FilterButtonProps->interface
+export interface FilterButtonProps {
+    categories: Category[];
+    activeCategory: Category;
+    onFilterChange: (category: Category) => void;
+}
