@@ -7,7 +7,7 @@ export const menuItems: MenuItem[] = [
         category: 'Korea',
         price: 10.99,
         description: 'Spicy rice cakes, serving with fish cake',
-        image: 'https://twoplaidaprons.com/wp-content/uploads/2020/09/tteokbokki-top-down-view-of-tteokbokki-in-a-bowl-500x500.jpg',
+        image: 'https://images.unsplash.com/photo-1590301157890-4810ed352733?w=500',
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const menuItems: MenuItem[] = [
         category: 'Korea',
         price: 8.99,
         description: 'Boiling vegetables, serving with special hot sauce.',
-        image: 'https://dwellbymichelle.com/wp-content/uploads/2023/02/DWELL-bibimbap-recipe.jpg',
+        image: 'https://images.unsplash.com/photo-1553163147-622ab57be1c7?w=500',
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ export const menuItems: MenuItem[] = [
         price: 7.99,
         description:
             'Chicken noodle soup, serving with vegetables such as soy bean, green onion. In an optional you can ask for egg.',
-        image: 'https://www.forkknifeswoon.com/wp-content/uploads/2014/10/simple-homemade-chicken-ramen-fork-knife-swoon-01.jpg',
+        image: 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=500',
     },
     {
         id: 4,
@@ -32,7 +32,7 @@ export const menuItems: MenuItem[] = [
         category: 'China',
         price: 5.99,
         description: 'Dan dan noodle, serving with green onion.',
-        image: 'https://omnivorescookbook.com/wp-content/uploads/2024/03/240226_Dan-Dan-Noodles_2.jpg',
+        image: 'https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=500',
     },
     {
         id: 5,
@@ -40,7 +40,7 @@ export const menuItems: MenuItem[] = [
         category: 'China',
         price: 12.99,
         description: 'Yangzhou style fried rice, serving with bean and pickles.',
-        image: 'https://omnivorescookbook.com/wp-content/uploads/2022/03/220318_Yangzhou-Fried-Rice_2.jpg',
+        image: 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=500',
     },
     {
         id: 6,
@@ -48,6 +48,6 @@ export const menuItems: MenuItem[] = [
         category: 'Japan',
         price: 9.99,
         description: 'Rice Sandwich, serving with soy sauce.',
-        image: 'https://sudachitravels.com/wp-content/uploads/2023/06/Onigiri-recipe-1.jpg',
+        image: 'https://images.unsplash.com/photo-1617093727343-374698b1b08d?w=500',
     },
 ];

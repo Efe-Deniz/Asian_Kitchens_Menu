@@ -1,14 +1,26 @@
+import { Header } from './components/Header';
+
+import { MenuGrid } from './components/MenuGrid';
+import { useMenuFilter } from './hooks/useMenuFilter';
+import { menuItems } from './data/menuData';
+import type { Category } from './types';
+import { FilterButtons } from './components/FilterButtons';
+
+//filtre butonları için kategori listesi
+const categories: Category[] = ['All', 'Korea', 'Japan', 'China'];
+
 function App() {
+    const { filteredItems, activeCategory, setActiveCategory } = useMenuFilter(menuItems);
+
     return (
-        <div className="min-h-screen bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
-            <div className="bg-white p-8 rounded-lg shadow-2xl">
-                <h1 className="text-4xl font-bold text-gray-800 mb-4">
-                    🎉 Tailwind CSS Çalışıyor!
-                </h1>
-                <p className="text-gray-600">
-                    Eğer bu metni renkli bir gradient arka planda görüyorsan, her şey hazır! 🚀
-                </p>
-            </div>
+        <div className="min-h-screen bg-gradient-to-br from-orange-50 to-red-50">
+            <Header />
+            <FilterButtons
+                categories={categories}
+                activeCategory={activeCategory}
+                onFilterChange={setActiveCategory}
+            />
+            <MenuGrid items={filteredItems} />
         </div>
     );
 }

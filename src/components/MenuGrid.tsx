@@ -6,7 +6,7 @@
  * responsive olacak
  */
 
-import { MenuItem } from '../types';
+import type { MenuItem } from '../types';
 import { MenuCard } from './MenuCard';
 
 interface MenuGridProps {
